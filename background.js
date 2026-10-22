@@ -16,8 +16,8 @@ const EXTENSION_ENABLED_KEY = 'csZoningExtensionEnabled';
 const UPDATE_CHECK_KEY = 'csZoningUpdateCheck';
 const UPDATE_CHECK_ALARM = 'csZoningUpdateCheckAlarm';
 const UPDATE_CHECK_INTERVAL_MINUTES = 720; // 12h
-const REPO_MANIFEST_URL = 'https://raw.githubusercontent.com/mhagerty-heap/zoningOverlay/master/manifest.json';
-const REPO_URL = 'https://github.com/mhagerty-heap/zoningOverlay';
+const REPO_MANIFEST_URL = 'https://raw.githubusercontent.com/Contentsquare-Presales/zoningOverlay/master/manifest.json';
+const REPO_URL = 'https://github.com/Contentsquare-Presales/zoningOverlay';
 
 function compareVersions(a, b) {
   const pa = String(a).split('.').map(n => parseInt(n, 10) || 0);
